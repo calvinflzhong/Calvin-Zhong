@@ -1,0 +1,29 @@
+.social-button-bg {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #111827;
+  border-radius: 3px;
+
+  @media (min-width: 768px) {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.social-button {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.social-button:hover {
+  color: #2867b2;
+}

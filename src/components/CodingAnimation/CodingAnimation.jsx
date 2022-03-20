@@ -4,7 +4,7 @@ import animationData from './CodingPersonAnimation.json';
 
 const CodingAnimation = () => {
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData: animationData,
   };

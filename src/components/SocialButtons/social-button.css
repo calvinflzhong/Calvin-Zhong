@@ -1,12 +1,11 @@
 .social-button-bg {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  background-color: #111827;
-  border-radius: 3px;
+  padding: 0.5rem;
+  background-color: #81afdd;
+  border-radius: 50px;
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+  .social-button-bg {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     padding-left: 1rem;
@@ -24,6 +23,15 @@
   height: 2.5rem;
 }
 
+#github {
+  border-radius: 50px;
+}
+
+#linkedin {
+  border-radius: 4px;
+}
+
 .social-button:hover {
-  color: #2867b2;
+  color: #0575fd;
+  background-color: black;
 }

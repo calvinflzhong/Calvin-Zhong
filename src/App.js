@@ -1,20 +1,16 @@
 import React from 'react';
 import './App.css';
-import { AboutMe, Features, Footer, Header, Projects } from './containers';
-import { CallToAction, About, NavBar, CodingAnimation } from './components';
+import { AboutMe, Skills, Footer, Header, Projects } from './containers';
+import { About, NavBar, CodingAnimation } from './components';
 
 const App = () => {
   return (
     <div className='App'>
       <div className='gradient__background'>
-        <NavBar />
         <Header />
       </div>
-      <CodingAnimation />
-      <AboutMe />
-      <Features />
+      <Skills />
       <Projects />
-      <CallToAction />
       <Footer />
     </div>
   );

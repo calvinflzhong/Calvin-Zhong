@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { AboutMe, Skills, Footer, Header, Projects } from './containers';
-import { About, NavBar, CodingAnimation } from './components';
+import { Skills, Footer, Header, Projects } from './containers';
 
 const App = () => {
   return (

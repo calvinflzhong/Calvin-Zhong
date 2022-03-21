@@ -1,0 +1,33 @@
+.App__features-container__feature {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.App__features-container__feature-title h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.App__features-container__feature-title div {
+  width: 5%;
+  height: 3px;
+  background: var(--gradient-bar);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 550px) {
+  .App__features-container__feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .App__features-container__feature {
+    margin: 1rem 0;
+  }
+}

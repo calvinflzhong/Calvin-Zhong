@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { CodingAnimation } from '../../components';
-import SocialButtons from '../../components/SocialButtons/SocialButtons';
+import { SocialButtons } from '../../components';
 
 const Header = () => (
   <div className='app__header section__padding' id='app'>

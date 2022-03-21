@@ -7,11 +7,19 @@ const App = () => {
   return (
     <div className='App'>
       <div className='gradient__background'>
-        <Header />
+        <div>
+          <Header />
+        </div>
+        <div className='skills-div'>
+          <Skills />
+        </div>
+        <div>
+          <Projects />
+        </div>
+        <div>
+          <Footer />
+        </div>
       </div>
-      <Skills />
-      <Projects />
-      <Footer />
     </div>
   );
 };

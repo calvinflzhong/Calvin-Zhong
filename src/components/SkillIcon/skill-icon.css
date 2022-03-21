@@ -1,0 +1,24 @@
+.skill-icon {
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.skills-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 10em);
+  grid-gap: 15%;
+  margin: 5em;
+}
+
+@media screen and (max-width: 700px) {
+  .skills-container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 10em);
+    grid-gap: 15%;
+    margin: 5em;
+  }
+}

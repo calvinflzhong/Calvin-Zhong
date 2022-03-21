@@ -12,7 +12,6 @@ const Skills = () => {
       </div>
       <br />
       <br />
-
       <div className='skill-icons'>
         <SkillIcon />
       </div>

@@ -8,10 +8,8 @@ const Header = () => (
     <div className='app__header-content'>
       <h1 className='gradient__text'>Hi I'm Calvin,</h1>
       <p>I am a full-stack developer with a background in accounting.</p>
-
-      <div className='social-buttons'>
-        <SocialButtons />
-      </div>
+      <SocialButtons />
+      <div className='social-buttons'></div>
     </div>
 
     <div className='animation'>

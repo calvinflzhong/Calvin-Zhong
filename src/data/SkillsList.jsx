@@ -3,6 +3,7 @@ import { DiCss3, DiJavascript1 } from 'react-icons/di';
 import { SiReact, SiJava, SiLinux, SiTailwindcss, SiPhp } from 'react-icons/si';
 import { ImGit } from 'react-icons/im';
 import { IoLogoNodejs } from 'react-icons/io';
+import { GrMysql } from 'react-icons/gr';
 
 export const skillsList = [
   {
@@ -67,7 +68,7 @@ export const skillsList = [
   },
   {
     title: 'MySQL',
-    icon: <SiMysql className='w-auto h-10' />,
+    icon: <GrMysql className='w-auto h-10' />,
     text: 'text-[#000000]',
     background: 'bg-[#FFFFFF]',
   },

@@ -65,4 +65,10 @@ export const skillsList = [
     text: 'text-[#15B4C1]',
     background: 'bg-[#151C2B]',
   },
+  {
+    title: 'MySQL',
+    icon: <SiMysql className='w-auto h-10' />,
+    text: 'text-[#000000]',
+    background: 'bg-[#FFFFFF]',
+  },
 ];

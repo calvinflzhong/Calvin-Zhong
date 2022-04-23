@@ -70,6 +70,6 @@ export const skillsList = [
     title: 'MySQL',
     icon: <GrMysql className='w-auto h-10' />,
     text: 'text-[#000000]',
-    background: 'bg-[#FFFFFF]',
+    background: 'bg-[#FFFFFF]', 
   },
 ];

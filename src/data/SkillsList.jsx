@@ -1,6 +1,6 @@
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3, DiJavascript1 } from 'react-icons/di';
-import { SiReact, SiJava, SiLinux, SiTailwindcss, SiPhp } from 'react-icons/si';
+import { SiReact, SiJava, SiLinux, SiPhp } from 'react-icons/si';
 import { ImGit } from 'react-icons/im';
 import { IoLogoNodejs } from 'react-icons/io';
 import { GrMysql } from 'react-icons/gr';
@@ -61,15 +61,9 @@ export const skillsList = [
     background: 'bg-[#000000]',
   },
   {
-    title: 'TailwindCSS',
-    icon: <SiTailwindcss className='w-auto h-10' />,
-    text: 'text-[#15B4C1]',
-    background: 'bg-[#151C2B]',
-  },
-  {
     title: 'MySQL',
     icon: <GrMysql className='w-auto h-10' />,
     text: 'text-[#000000]',
-    background: 'bg-[#FFFFFF]', 
+    background: 'bg-[#FFFFFF]',
   },
 ];
